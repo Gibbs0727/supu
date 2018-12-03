@@ -1,0 +1,164 @@
+@charset "utf-8";//编码设置
+
+//---------------------------------购物车页css-----------------
+
+//---------------------------nav-----------------------------
+
+//--------------------------navOne---------------------------
+#navOne{
+    height:30px;
+    width:100%;
+    background:#F6F6F6;
+    .navOne{
+        height:29px;
+        // background:skyblue;
+        padding-top:1px;
+        .navOnel{
+            height:29px;
+            color:#666666;
+            font-size:12px;       
+            line-height:30px;
+            a{color:#E5004A;}
+        }
+        .navOner{
+            .navOnerz{
+                display:block;
+                float:left;
+                font-size:12px;
+                color:#666666;
+                height:28px;
+                line-height:29px;
+                border:1px solid #F6F6F6;
+                border-bottom:0;
+                margin-right:15px;
+                a{color:#666666;}
+            }
+            .navOner1{
+                position:relative;
+                width:80px;
+                text-align:center;
+                i{
+                   display:inline-block;
+                   width:10px;
+                   height:5px;
+                   vertical-align: middle;
+                   background:url(../img/cart/index.png) no-repeat 0 0;
+                }
+                .navOner11{
+                    display:none;
+                    position:absolute;
+                    top:28px;
+                    left:-1px;
+                    li{
+                        height:28px;
+                        line-height:28px;
+                        text-align:center;
+                        width:80px;
+                        cursor:pointer;
+                    }
+                }
+            }
+            .navOner1:hover{
+                background:#FFFFFF;
+                border:1px solid #FE7901;
+                border-bottom:0;
+                i{ 
+                    background:url(../img/cart/index.png) no-repeat 0 -6px;
+                }
+                .navOner11{
+                    display:block;
+                    border:1px solid #FE7901;
+                    border-top:0;
+                }
+            }
+            .navOner2{
+                position:relative;
+                width:80px;
+                text-align:center;
+                i{
+                   display:inline-block;
+                   width:10px;
+                   height:5px;
+                   vertical-align: middle;
+                   background:url(../img/cart/index.png) no-repeat 0 0;
+                }
+                .navOner22{
+                    text-align:center;
+                    vertical-align: center;
+                    position:absolute;
+                    top:28px;
+                    left:-30px;
+                    display:none;
+                    li{
+                        padding-top:10px;
+                        height:130px;
+                        width:140px;
+                    }
+                }
+            }
+            .navOner2:hover{
+                height:28px;
+                background:#FFFFFF;
+                border:1px solid #FE7901;
+                border-bottom:1px solid #ffffff;
+                i{ 
+                    background:url(../img/cart/index.png) no-repeat 0 -6px;
+                }
+                .navOner22{
+                    display:block;
+                    border:1px solid #FE7901;
+                }
+            }
+            .navOner3{
+                position:relative;
+                width:80px;
+                text-align:center;
+                i{
+                   display:inline-block;
+                   width:10px;
+                   height:5px;
+                   vertical-align: middle;
+                   background:url(../img/cart/index.png) no-repeat 0 0;
+                }
+                 .navOner33{
+                    display:none;
+                    position:absolute;
+                    top:28px;
+                    left:-10px;
+                    border:1px solid black;
+                    li{
+                        height:28px;
+                        line-height:28px;
+                        text-align:center;
+                        width:100px;
+                        cursor:pointer;
+                    }
+                }
+            }
+            .navOner3:hover{
+                background:#FFFFFF;
+                border:1px solid #FE7901;
+                border-bottom:0;
+                i{ 
+                    background:url(../img/cart/index.png) no-repeat 0 -6px;
+                }
+                .navOner33{
+                    display:block;
+                    border:1px solid #FE7901;
+                }
+            }
+        }
+        
+    }
+}
+//--------------------------navTwo---------------------------
+#navTwo{
+    height:112px;
+    width:100%;
+    background:#FFFFFF;
+    .navTwo{
+        height:86px;
+        padding-top:26px;
+        background:skyblue;
+    }
+}
